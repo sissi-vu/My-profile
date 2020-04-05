@@ -1,0 +1,91 @@
+body
+{ 
+	background-image: url(images/clouds.jpg);
+	color: black;
+	font-family: Courier; 
+	text-align: center;
+ }
+
+ a
+ {
+   font-family: 'Roboto';
+   text-decoration: none;
+   color: #6B72E²
+   font-weight: 600px;
+   font-size: 16px;
+ }
+ a:hover
+ {
+ 	color:black;
+ }
+
+h1
+{
+   font-family: Oldtown, fantasy;
+   letter-spacing: 8px; 
+   font-size: 40px;
+ }
+
+/*RESPONSIVE DESIGN*/
+@media (max-with:760px)
+{   .container
+	{width: 600px;}   
+}
+
+@media (max-width: 500px)
+{
+	.container
+	{width: 400px ;}
+}
+
+/* CUSTOM DESIGN */
+
+.card-white
+{
+  background: white;                         /* White background */
+  padding: 20px ;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 30px 130px 20px 130px;
+}
+
+.img-circle
+{
+	border-radius: 50%;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.1);
+}
+
+.btn-black
+{
+	background-color: black;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+	margin-top:25px;
+	margin-bottom:30px;
+}
+
+.btn-black:hover {
+  background-color: gold;
+}
+
+.list-inline
+{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li
+{
+	display: inline;
+}
+
+#introduction 
+{
+	font-family: Bookman, serif;
+	margin: 30px 150px 30px 150px;
+	border-style: solid;
+}
+
+
+
+
