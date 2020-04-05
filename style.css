@@ -1,6 +1,7 @@
 body
 { 
 	background-image: url(images/clouds.jpg);
+	opacity: 0.8;
 	color: black;
 	font-family: Courier; 
 	text-align: center;
@@ -27,15 +28,20 @@ h1
  }
 
 /*RESPONSIVE DESIGN*/
-@media (max-with:760px)
+@media (max-with: 960px)
 {   .container
-	{width: 600px;}   
+	{width: 700px;}   
 }
 
-@media (max-width: 500px)
+@media (max-with:720px)
+{   .container
+	{width: 500px;}   
+}
+
+@media (max-width: 540px)
 {
 	.container
-	{width: 400px ;}
+	{width: 300px ;}
 }
 
 /* CUSTOM DESIGN */
